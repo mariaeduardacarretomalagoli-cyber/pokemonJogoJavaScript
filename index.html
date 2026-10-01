@@ -1,0 +1,42 @@
+<!-- span vai mudar apenas oq está dentro no jv -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+
+<body>
+    <h1>Pokemon</h1>
+
+    <div class="cenario" id="cenarios">
+        <div class="textos">
+            <h5 id="pontos">Pontos: <span id="valorPontos">0</span></h5>
+            <h5 id="vidas">Vidas: 
+                <img src="assets/img/pokeball.png" alt="" id="p1">
+                <img src="assets/img/pokeball.png" alt="" id="p2">
+                <img src="assets/img/pokeball.png" alt="" id="p3">
+                </h5>
+
+                <p>Record: <span id="rel">0</span></p>
+        </div>
+
+        <div id="jogador"></div>
+        <div id="vilao"></div>
+    </div>
+
+    <audio id="meuSom">
+        <source src="assets/img/Raining-Tacos-Parry-Gripp-_-BooneBum.mp3">
+    </audio>
+
+    <audio id="som">
+        <source src="assets/img/johnnybacon156-fah-469417.mp3">
+    </audio>
+
+    <script src="assets/js/jogo.js" defer></script>
+</body>
+
+</html>
